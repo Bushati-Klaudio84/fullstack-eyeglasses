@@ -1,0 +1,25 @@
+/* underbar.css */
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.vertical-divider {
+    height: 24px;
+    width: 1px;
+    background-color: black;
+    margin: 0 12px;
+    display: inline-block;
+    
+}
+
+.nav-link, .custom-button {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover, .custom-button:hover {
+    background-color: darkgrey;
+    color: white;
+}

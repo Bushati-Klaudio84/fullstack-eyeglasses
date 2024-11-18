@@ -1,0 +1,14 @@
+.card-zoom {
+    transition: transform 0.3s ease-in-out;
+    max-width: 100%; /* Ensures the card doesn't overflow */
+    height: 100%;
+  }
+  
+  .card-zoom:hover {
+    transform: scale(1.05);
+  }
+  
+  .card {
+    max-width: 100%; /* To make sure cards stay within the allocated space */
+  }
+  

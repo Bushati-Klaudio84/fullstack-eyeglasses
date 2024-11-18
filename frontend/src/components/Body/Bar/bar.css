@@ -1,0 +1,10 @@
+.gradient-bar {
+    width: 100%;
+    height: 50px; /* Adjust height as needed */
+    background: linear-gradient(to right, orange, red);
+    text-align: center;
+    line-height: 50px; /* Adjust line-height as needed */
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+}

@@ -1,0 +1,32 @@
+.navbar-modern {
+    height: 50px; /* Adjust height as needed */
+    padding: 0.25rem 1rem; /* Reduce padding for a slimmer look */
+    font-size: 0.9rem; /* Optionally, reduce font size for a compact appearance */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    border-right: 1px solid #e0e0e0;
+    padding-top: 1rem;
+}
+
+.user-auth {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.table-primary th {
+    color: #fff;
+}
+
+.logout-btn {
+    margin-right: 1rem;
+}

@@ -1,0 +1,107 @@
+/* Navbar */
+.navbar {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logout-btn {
+    margin-right: 1rem;
+}
+
+.user-auth {
+    background-color: #fff;
+    color: #007bff;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-left: 1rem;
+}
+
+/* Sidebar */
+.sidebar {
+    border-right: 1px solid #e0e0e0;
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+.sidebar h4 {
+    margin-bottom: 1rem;
+}
+
+.sidebar .nav-link {
+    color: #555;
+    padding: 0.8rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.sidebar .nav-link:hover, .sidebar .nav-link.active {
+    color: #007bff;
+    background-color: #e9f5ff;
+    border-radius: 0.25rem;
+}
+
+/* Content */
+.p-4 {
+    background-color: #f8f9fa;
+}
+
+h4 {
+    color: #333;
+}
+
+.table {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.table td {
+    color: #555;
+}
+
+/* Button Styles */
+.table .btn-primary {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.85rem;
+    border-radius: 0.3rem;
+}
+
+.table .btn-danger {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.85rem;
+    border-radius: 0.3rem;
+    transition: background-color 0.2s ease;
+}
+
+.table .btn-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        position: static;
+        width: 100%;
+    }
+
+    .p-4 {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .table {
+        font-size: 0.9rem;
+    }
+}

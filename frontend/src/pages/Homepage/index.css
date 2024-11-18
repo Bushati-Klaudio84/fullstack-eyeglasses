@@ -1,0 +1,122 @@
+.vertical-divider {
+    height: 24px;
+    /* Height of the divider */
+    width: 1px;
+    /* Width of the divider */
+    background-color: black;
+    /* Color of the divider */
+    margin: 0 8px;
+    /* Horizontal margin */
+    align-self: center;
+    /* Center vertically within flex container */
+}
+
+.custom-button {
+    color: black;
+    /* Text color */
+    text-decoration: none;
+    /* Remove underline */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.custom-button:hover {
+    background-color: darkgrey;
+    /* Change background color on hover */
+    color: white;
+    /* Change text color on hover */
+}
+
+.custom-navbar {
+    box-shadow: 0 2px 4px rgba(251, 248, 248, 0.1);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-image {
+    height: 70px;
+    width: auto;
+}
+
+.search-container {
+    flex: 2;
+    /* Allocate more space for the search bar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 500px;
+    /* Optional: Set a max width */
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    color: #555;
+    font-size: 20px;
+}
+
+.search-input {
+    padding-left: 35px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    height: 40px;
+    width: 100%;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.icon-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.gradient-bar {
+    width: 100%;
+    height: 50px;
+    /* Adjust height as needed */
+    background: linear-gradient(to right, orange, red);
+    text-align: center;
+    line-height: 50px;
+    /* Adjust line-height as needed */
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.bg-pink {
+    background-color: #ff69b4;
+    /* Light Pink */
+    padding: 20px;
+    /* Optional padding */
+}
+
+/* Carousel1.css */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    /* Make the arrows black */
+    width: 30px;
+    /* Increase width for thickness */
+    height: 30px;
+    /* Increase height for thickness */
+    background-size: 100%;
+    /* Ensure full black background */
+    filter: none;
+    /* Remove Bootstrap's default opacity filter */
+} 
